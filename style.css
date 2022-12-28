@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    /* border:1px red solid; */
+}
+body{
+     background-color: rgb(204, 235, 255);
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    height: 10vh;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    /* z-index: 10; */
+}
+.photo{
+    width: 100px;
+    margin-left: -350px;
+    height: 10px;
+}
+ul{
+    list-style:none;
+    display: flex;
+    margin-right: 300px;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    font-weight: bold ;
+    /* text-transform:capitalize; */
+    /* border: 1px solid transparent; */
+    /* padding: 10%, -10%; */
+    /* margin-left: -15px; */
+}
+
+.blue-btn a{
+    color: white;
+    text-decoration:none;
+    text-align: center;
+    display:block; /* important */
+ 
+  }
+  
+  
+  .blue-btn{
+    height: 40px;
+    font: normal normal 700 1em/3em Arial,sans-serif;
+    overflow: hidden;
+    width: 150px;
+    background-color:rgb(204, 235, 255);
+    border-radius: 20px;
+    margin-right: 80px;
+   
+  }
+  .btn {
+    padding: 10px;
+    margin-left: 120%;
+    margin-top: -90px;
+
+  }
+
+  /* ...................................navbarend......................................... */
+  
+   .content{
+    width: 45%;
+    margin-left: 15%;
+    position:absolute;
+    margin-top: 25%; 
+    left: 12%;
+    transform: translate(-40%, -60%);
+    font-size:xx-small;
+    font-style:normal;
+}
+
+.content h2{
+    font-size: 17px;
+    color: white;
+    margin-bottom: 5%;
+    margin-left:3.5%;
+    transform: translate(-10%, -30%);
+    border-radius: 20px;
+    background-color: rgb(78, 145, 164);
+    padding: 11px;
+    width: 35%;
+   
+
+}
+
+.content h1{
+    font-size: 40px;
+    color: black; 
+    margin-bottom: -3%;
+    margin-left: 9%;
+    transform: translate(-10%, -30%);
+
+}
+.content p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px auto;
+    margin-bottom: 3%;
+}
+.pic img{
+    margin-left: 65%;
+    margin-top: 13%;
+    width: 25%;
+
+}
+.first{
+    margin-left: 7%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid  rgb(79, 133, 170);
+    border-radius: 15px;
+    background-color: rgb(204, 235, 255);
+    cursor: pointer;
+   
+}
+.black{
+    
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(17, 17, 18);
+    color:white;
+    cursor: pointer;
+}
